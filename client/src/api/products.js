@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3050/api";
+const BASE_URL = " https://future-fs-02-4-js4y.onrender.com/api";
 
 export async function fetchProducts({ search = "", category = "all" } = {}) {
   const params = new URLSearchParams();
