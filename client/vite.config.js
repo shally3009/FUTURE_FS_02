@@ -7,4 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    "/api":`https://future-fs-02-4-js4y.onrender.com`,
+  },
 })
