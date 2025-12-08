@@ -14,6 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173/",
+    "https://future-fs-02-snqj.vercel.app/",
   ],
   credentials: true
 }));
