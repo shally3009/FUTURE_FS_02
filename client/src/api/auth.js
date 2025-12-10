@@ -1,5 +1,5 @@
 // src/api/auth.js
-const BASE_URL = `https://future-fs-02-4-js4y.onrender.com/api`;
+const BASE_URL = `https://future-fs-02-5-e3n3.onrender.com/api/`;
 
 export async function registerUser(payload) {
   const res = await fetch(`${BASE_URL}/auth/register`, {
