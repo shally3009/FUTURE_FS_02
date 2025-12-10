@@ -8,6 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    "/api":`https://future-fs-02-4-js4y.onrender.com`,
+    "/api":`https://future-fs-02-5-e3n3.onrender.com`,
   },
 })

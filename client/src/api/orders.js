@@ -1,4 +1,4 @@
-const BASE_URL = `https://future-fs-02-5-e3n3.onrender.com/api/`;
+const BASE_URL = `https://future-fs-02-5-e3n3.onrender.com/api`;
 
 export async function createOrder(orderData, token) {
   const headers = { "Content-Type": "application/json" };
